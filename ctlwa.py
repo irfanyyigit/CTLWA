@@ -59,7 +59,7 @@ def generate_post(data, api_key, tech, project_context):
 # --- ANA ARAYÜZ VE DASHBOARD EKRAN ---
 
 st.title("CTLWA")
-st.write("Proje detaylarını ve GitHub Repo yolunu girerek teknik analiz raporu oluşturabilmeye olanak sağlar...")
+st.write("Proje detaylarını ve GitHub Repo yolunu girerek teknik analiz raporu oluşturabilmeye ve bunu da LinkedIn platformunda direkt yayınlamak için kullanılır")
 
 repo_url = st.text_input("GitHub Depo Yolu (kullanıcıadı/repoyolu)", placeholder="kullanıcıadı/repoyolu")
 
